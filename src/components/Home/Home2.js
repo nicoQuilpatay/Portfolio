@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,15 +19,20 @@ function Home2() {
               Déjame <span className="purple"> Presentarme </span> 
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+            Me gusta crear soluciones digitales funcionales, simples y eficientes.
+              Aprendí investigando, implementando, rompiendo y solucionando… 😅
               <br />
-              <br />I am fluent in classics like
+              <br />Soy estudiante avanzado de la
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> Tecnicatura Universitaria de Desarrollo de Software </b>
+              </i> en 
+              <i>
+                <b className="purple"> Universidad Católica de Cuyo </b>
               </i>
+
               <br />
               <br />
+            {/*
               My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> and
@@ -38,17 +43,18 @@ function Home2() {
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              */}
+              Siempre que sea posible, también aplico mi pasión por desarrollar productos con
+              <b className="purple"> Node.js</b> ,
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Librerias modernas de Javascript y Frameworks
                 </b>
               </i>
-              &nbsp; like
+              &nbsp; como
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js </b>
               </i>
             </p>
           </Col>
