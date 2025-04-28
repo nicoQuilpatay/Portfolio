@@ -265,7 +265,7 @@ button:focus {
 }
 
 .home-content {
-  padding: 9rem 0 2rem !important;
+  padding: 6rem 0 2rem !important;
   color: whitesmoke;
   text-align: left;
 }
@@ -307,12 +307,12 @@ button:focus {
 
 .myAvtar {
   justify-content: center !important;
-  padding-top: 9em !important;
+  padding-top: 7em !important;
 }
 
 @media (max-width: 767px) {
   .myAvtar {
-    padding-top: 2em !important;
+    padding-top: 1em !important;
     padding-bottom: 2em !important;
   }
 }

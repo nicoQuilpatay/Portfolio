@@ -5,7 +5,7 @@ import {
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiGit,
+  DiGithubBadge,
   DiJava,
   DiWordpress,
 } from "react-icons/di";
@@ -29,7 +29,7 @@ function Techstack() {
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <DiGithubBadge />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />

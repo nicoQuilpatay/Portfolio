@@ -3,8 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
-  AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -66,11 +64,10 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
+            <h1>Me encuentras en</h1>
+
             <ul className="home-about-social-links">
+            {/*}
               <li className="social-icons">
                 <a
                   href="https://github.com/soumyajit4419"
@@ -81,6 +78,9 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
+              */}
+              {/*
+
               <li className="social-icons">
                 <a
                   href="https://twitter.com/Soumyajit4419"
@@ -91,9 +91,10 @@ function Home2() {
                   <AiOutlineTwitter />
                 </a>
               </li>
+              */}
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/nicolas-quilpatay-853477246/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -103,7 +104,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/nico_quilpatay/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

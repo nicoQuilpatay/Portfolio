@@ -8,13 +8,12 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hola! soy<span className="purple">Nicolas Quilpatay </span>
+            Hola! soy <span className="purple">Nicolas Quilpatay </span>
             de <span className="purple"> San Juan Argentina.</span>
             <br />
-            Soy estudiante avanzado de la Tecnicatura Universitaria de Software en Universidad Catolica de Cuyo.
+            Estudiante avanzado de la Tecnicatura Universitaria de Software en Universidad Católica de Cuyo.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            Me gusta iniciar proyectos desde cero y darles vida hasta que sean reales.
             <br />
             <br />
             Ademas de programar me gusta :
@@ -31,10 +30,12 @@ function AboutCard() {
             </li>
           </ul>
 
+          {/*
           <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
           <footer className="blockquote-footer">Soumyajit</footer>
+          */}
         </blockquote>
       </Card.Body>
     </Card>
