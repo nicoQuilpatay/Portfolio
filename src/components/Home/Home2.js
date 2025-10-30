@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
@@ -6,8 +6,22 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import Button from "react-bootstrap/Button";
+import Particle from "../Particle";
+import pdf from "../../Assets/../Assets/CV Nicolas Quilpatay TUDS.pdf";
+import pdf2 from "../../Assets/../Assets/CV Gonzalo Nicolas Quilpatay TUDS.pdf";
+import { AiOutlineDownload } from "react-icons/ai";
+import { Document, Page, pdfjs } from "react-pdf";
+import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function Home2() {
+  const [width, setWidth] = useState(1200);
+
+  useEffect(() => {
+    setWidth(window.innerWidth);
+  }, []);
+
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -62,6 +76,49 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
+        
+        {/* Sección de CV agregada */}
+        <Row className="resume-section">
+          <Col md={12} className="resume-content">
+            <Particle />
+            <Row style={{ justifyContent: "center", position: "relative", marginBottom: "20px" }}>
+              <Button
+                variant="primary"
+                href={pdf}
+                target="_blank"
+                style={{ maxWidth: "250px" }}
+              >
+                <AiOutlineDownload />
+                &nbsp;Descargar CV
+              </Button>
+            </Row>
+
+            <Row className="resume">
+              <Document file={pdf} className="d-flex justify-content-center">
+                <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+              </Document>
+            </Row>
+
+            <Row className="resume">
+              <Document file={pdf2} className="d-flex justify-content-center">
+                <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+              </Document>
+            </Row>
+
+            <Row style={{ justifyContent: "center", position: "relative", marginTop: "20px" }}>
+              <Button
+                variant="primary"
+                href={pdf2}
+                target="_blank"
+                style={{ maxWidth: "250px" }}
+              >
+                <AiOutlineDownload />
+                &nbsp;Descargar CV
+              </Button>
+            </Row>
+          </Col>
+        </Row>
+
         <Row>
           <Col md={12} className="home-about-social">
             <h1>Me encuentras en</h1>
