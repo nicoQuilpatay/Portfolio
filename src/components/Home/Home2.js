@@ -20,7 +20,7 @@ function Home2() {
             Me gusta crear soluciones digitales funcionales, simples y eficientes.
               Aprendí investigando, implementando, rompiendo y solucionando… 😅
               <br />
-              <br />Soy estudiante avanzado de la
+              <br />Me recibi de la
               <i>
                 <b className="purple"> Tecnicatura Universitaria de Desarrollo de Software </b>
               </i> en 
@@ -42,12 +42,12 @@ function Home2() {
               <br />
               <br />
               */}
-              Siempre que sea posible, también aplico mi pasión por desarrollar productos con
+              Me gusta mucho transformar ideas en realidad en el campo del software y tengo una gran gusto por desarrollar productos con
               <b className="purple"> Node.js</b> ,
               <i>
                 <b className="purple">
                   {" "}
-                  Librerias modernas de Javascript y Frameworks
+                  librerias modernas de Javascript y Frameworks
                 </b>
               </i>
               &nbsp; como
