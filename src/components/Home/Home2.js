@@ -26,50 +26,50 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              Déjame <span className="purple"> Presentarme </span> 
-            </h1>
-            <p className="home-about-body">
-            Me gusta crear soluciones digitales funcionales, simples y eficientes.
-              Aprendí investigando, implementando, rompiendo y solucionando… 😅
-              <br />
-              <br />Me recibi de la
-              <i>
-                <b className="purple"> Tecnicatura Universitaria de Desarrollo de Software </b>
-              </i> en 
-              <i>
-                <b className="purple"> Universidad Católica de Cuyo </b>
-              </i>
+<Col md={8} className="home-about-description">
+  <h1 style={{ fontSize: "2.6em" }}>
+    Déjame <span className="purple">presentarme</span>
+  </h1>
 
-              <br />
-              <br />
-            {/*
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
-              <br />
-              <br />
-              */}
-              Me gusta mucho transformar ideas en realidad en el campo del software y tengo una gran gusto por desarrollar productos con
-              <b className="purple"> Node.js</b> ,
-              <i>
-                <b className="purple">
-                  {" "}
-                  librerias modernas de Javascript y Frameworks
-                </b>
-              </i>
-              &nbsp; como
-              <i>
-                <b className="purple"> React.js </b>
-              </i>
-            </p>
-          </Col>
+  <p className="home-about-body">
+    Me especializo en crear soluciones digitales funcionales y eficientes.
+    <br />
+    Aprendí desarrollando, investigando, probando y resolviendo problemas en escenarios reales.
+    <br />
+    <br />
+    Soy Técnico Universitario en Desarrollo de Software, egresado de la{" "}
+    <i>
+      <b className="purple">Tecnicatura Universitaria en Desarrollo de Software</b>
+    </i>{" "}
+    de la{" "}
+    <i>
+      <b className="purple">
+        Universidad Católica de Cuyo
+      </b>
+    </i>.
+    <br />
+    <br />
+    Disfruto transformar ideas en productos concretos dentro del ámbito del software.
+    Trabajo principalmente con{" "}
+    <b className="purple">Node.js</b>, utilizando{" "}
+    <i>
+      <b className="purple">librerías modernas de JavaScript y frameworks</b>
+    </i>{" "}
+    como{" "}
+    <i>
+      <b className="purple">React.js</b>
+    </i>.
+  </p>
+
+  <p className="home-about-body">
+    Mi stack principal es{" "}
+    <i>
+      <b className="purple">MERN</b>
+    </i>. 
+    Podés acceder a mi CV y a una sección de proyectos donde se reflejan trabajos y desarrollos recientes.
+  </p>
+</Col>
+
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />

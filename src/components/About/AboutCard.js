@@ -8,13 +8,14 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hola! soy <span className="purple">Nicolas Quilpatay </span>
-            de <span className="purple"> San Juan Argentina.</span>
+            Hola, soy <span className="purple">Nicolás Quilpatay</span>, 
+            de <span className="purple">San Juan, Argentina</span>.
             <br />
-            Estudiante avanzado de la Tecnicatura Universitaria de Software en Universidad Católica de Cuyo.
+            Soy Técnico Universitario en Desarrollo de Software, egresado de la Universidad Católica de Cuyo.
             <br />
-            Me gusta iniciar proyectos desde cero y darles vida hasta que sean reales.
+            Me especializo en iniciar proyectos desde cero y llevarlos a producción.
             <br />
+            Cuento con más de 2 años de experiencia en desarrollo de software.
             <br />
             Ademas de programar me gusta :
           </p>

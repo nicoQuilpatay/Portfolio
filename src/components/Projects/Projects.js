@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import gPetsStore from "../../Assets/Projects/gPetsStore.png";
 import gPets from "../../Assets/Projects/g-pets.png";
 import eacDiario from "../../Assets/Projects/EacDiario.png";
+import chiconi from "../../Assets/Projects/chiconi1.png";
 
 function Projects() {
   return (
@@ -18,6 +19,17 @@ function Projects() {
           Algunos de mis últimos proyectos.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chiconi}
+              isBlog={false}
+              title="Aplicación de gestión de tareas - Chiconi Instalaciones"
+              description="Desarrollo a medida para Chiconi Instalaciones. Aplicación web y móvil para la gestión de tareas en el proyecto minero Veladero, con soporte offline. Participé en el diseño e implementación de la solución desde Nima Software, donde soy cofundador."
+              ghLink="https://github.com/nicoquilpatay"
+              demoLink="https://play.google.com/store/apps/details?id=com.NimaSoftware.GestorTareasChiconi&hl=es_AR"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={gPets}
