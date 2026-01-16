@@ -81,23 +81,6 @@ function Home2() {
         <Row className="resume-section">
           <Col md={12} className="resume-content">
             <Particle />
-            <Row style={{ justifyContent: "center", position: "relative", marginBottom: "20px" }}>
-              <Button
-                variant="primary"
-                href={pdf}
-                target="_blank"
-                style={{ maxWidth: "250px" }}
-              >
-                <AiOutlineDownload />
-                &nbsp;Descargar CV
-              </Button>
-            </Row>
-
-            <Row className="resume">
-              <Document file={pdf} className="d-flex justify-content-center">
-                <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-              </Document>
-            </Row>
 
             <Row className="resume">
               <Document file={pdf2} className="d-flex justify-content-center">
