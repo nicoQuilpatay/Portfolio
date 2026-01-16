@@ -8,7 +8,7 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/CV Nicolas Quilpatay TUDS.pdf";
+//import pdf from "../../Assets/../Assets/CV Nicolas Quilpatay TUDS.pdf";
 import pdf2 from "../../Assets/../Assets/CV Gonzalo Nicolas Quilpatay TUDS.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
